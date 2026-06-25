@@ -1,0 +1,15 @@
+# Raw TLC Parquet trip records (large, 30-100 MB each; redownloadable from NYC TLC portal)
+data/raw/*.parquet
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Jupyter / virtual envs
+.venv/
+venv/
+env/
